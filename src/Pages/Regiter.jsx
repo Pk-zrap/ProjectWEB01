@@ -2,9 +2,8 @@ import React from 'react'
 
 function Regiter() {
     return (
-        <div></div>
 
-  /*  <div className="w-full h-screen flex justify-center items-start">
+  <div className="w-full h-screen flex justify-center items-start">
       <div className='relative w-full h-full flex flex-col'>
         <div className='absolute top-[20%] left-[10%] flex flex-col'>
           <h1 className=' text-4x1 text-white font-bold my-4'></h1>
@@ -67,7 +66,7 @@ function Regiter() {
 
       </div >
 
-    </div>*/
+    </div>
     )
 }
 
