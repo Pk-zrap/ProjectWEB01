@@ -9,7 +9,6 @@ function Regiter() {
           <h1 className=' text-4x1 text-white font-bold my-4'></h1>
           <p className='text-xl  text-white font-normal'></p>
         </div>
-        <img src={COVER_IMAGE} className="w-[887px] h-[825px]" />
       </div>
 
       <div className='w-1/2 h-full bg-[#f5f5f5] flex flex-col p-40 justify-between items-center'>
