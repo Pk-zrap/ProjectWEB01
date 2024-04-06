@@ -44,7 +44,7 @@ function Barbelow() {
                         </label>
                         <div className="join">
                             <input type="text" placeholder="username@site.com" className="input input-bordered btn-outline join-item" />
-                            <button className="btn join-item">Subscribe</button>
+                            <button className="btn btn-info join-item">Subscribe</button>
                         </div>
                     </fieldset>
                 </form>
