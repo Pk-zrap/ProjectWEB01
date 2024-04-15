@@ -100,6 +100,7 @@ function Barbelow() {
             </div>
           </fieldset>
         </form>
+        
       </footer>
     </div>
   );
