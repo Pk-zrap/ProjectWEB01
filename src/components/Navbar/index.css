@@ -1,7 +1,0 @@
-
-  @media (max-width: px) {
-    .navbar-start, .navbar-center, .navbar-end {
-      flex-direction: column;
-      align-items: center;
-    }
-  }

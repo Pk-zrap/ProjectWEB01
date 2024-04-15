@@ -3,6 +3,7 @@ import COVER_IMAGE from '../../src/assets/t1.png';
 
 
 function Regiter() {
+
   return (
 
     <div className="w-full h-screen flex justify-center items-start">
@@ -34,7 +35,7 @@ function Regiter() {
 
                 <input type="First Name"
                   placeholder="First Name"
-                  class="input input-bordered w-full text-black py-2 bg-transparent border-b border-neutral-content outline-none focus:outline-none join-item" required />
+                  class="input input-bordered w-full text-black py-2 bg-transparent border-b border-neutral-content outline-none focus:outline-none join-item"  required />
               </div>
 
               <div class="form-control">
@@ -64,7 +65,7 @@ function Regiter() {
 
                 <input type="Password"
                   placeholder="Password"
-                  class="input input-bordered w-full text-black py-2 bg-transparent border-b border-neutral-content outline-none focus:outline-none join-item" required />
+                  class="input input-bordered w-full text-black py-2 bg-transparent border-b border-neutral-content outline-none focus:outline-none join-item"autoComplete="off" required />
               </div>
 
               <div class="form-control">
@@ -74,7 +75,7 @@ function Regiter() {
 
                 <input type="Confirm Password"
                   placeholder="Confirm Password"
-                  class="input input-bordered w-full text-black py-2 bg-transparent border-b border-neutral-content outline-none focus:outline-none join-item" required />
+                  class="input input-bordered w-full text-black py-2 bg-transparent border-b border-neutral-content outline-none focus:outline-none join-item"autoComplete="off" required />
               </div>
             </form>
 

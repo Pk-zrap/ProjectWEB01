@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar/index'
 import Intropost from '../components/introPost/intropost'
 import About from '../components/About/About'
 import Barbleow from '../components/Bar below/Barbelow'

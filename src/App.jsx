@@ -1,9 +1,9 @@
 import { useState } from 'react'
-//import Navbar from './components/Navbar/index'
 //import Main from './components/Main/index'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navber from '../src/components/Navbar/index'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navber from './components/Navbar/Navbar'
+
 import Home from "./Pages/Home"
 import Login from "./Pages/Login"
 import Singup from "./Pages/Regiter"
@@ -18,7 +18,7 @@ function App() {
   const [count, setCount] = useState(0)
   return (
     <BrowserRouter>
-      <Navber />
+      <Navber/>
 
       <Routes>
         <Route >
