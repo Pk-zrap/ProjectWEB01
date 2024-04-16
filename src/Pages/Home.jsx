@@ -12,10 +12,8 @@ function Home() {
 
             {/* Intropost*/}
             <Intropost />
-
             {/* About*/}
             <About />
-
             <div>
                 <img src={P5} />
             </div>
