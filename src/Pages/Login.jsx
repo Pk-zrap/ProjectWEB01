@@ -13,7 +13,7 @@ function Login() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row h-screen">
+    <div className="flex flex-col md:flex-row h-screen pt-20">
       {/* Image Panel */}
       <div className="md:w-1/2 overflow-hidden">
         <img

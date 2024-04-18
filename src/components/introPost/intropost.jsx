@@ -8,7 +8,7 @@ import P4 from "../../assets/P4.png";
 function introPost() {
   return (
     <div>
-      <div class=" flex-wrap items-center justify-between mx-auto">
+      <div class=" flex-wrap items-center justify-between mx-auto pt-20">
         <img src={banner} />
       </div>
       <img src={P1} />

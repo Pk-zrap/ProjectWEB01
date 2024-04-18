@@ -21,7 +21,8 @@ function handleSubmit(event) {
 
 function Regiter() {
   return (
-    <div className="flex flex-col md:flex-row h-screen">
+    <div className="flex flex-col md:flex-row h-screen pt-20
+    ">
       {/* Image Panel */}
       <div className="md:w-1/2 overflow-hidden">
         <img
@@ -32,7 +33,7 @@ function Regiter() {
       </div>
 
       {/* Regiter Form Panel */}
-      <div className="md:w-1/2 bg-gray-100 flex justify-center items-center p-4">
+      <div className="md:w-1/2 bg-gray-100 flex justify-center items-center p-4 ">
         <div className="w-full max-w-md">
           <h1 className="text-4xl font-semibold text-info mb-2">Welcome</h1>
           <p className="text-base mb-2">Register your account.</p>
